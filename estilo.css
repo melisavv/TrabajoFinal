@@ -1,0 +1,117 @@
+body {
+    background-image: url(imagenes/fondo.gif);
+    margin: auto;
+    color: #2b271c;
+    width: 900px;
+    border-radius: 10px;
+    background-color: rgb(236, 232, 171);
+}
+header h1{
+    color: #D6A965;
+   text-shadow: 2px 2px #261408;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 55px 5px 55px;
+    display: block;
+    float: left;
+}
+a:hover{   
+        color:#D6A965;;
+    }
+nav {
+    margin: -20px 0px 0px 0px;
+    float: left;
+    background-color: #261408;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100%;
+}
+nav li {
+    margin: 2px;
+    float: left;
+    height: 24px;
+    list-style: none;
+    margin: fixed;
+}
+#banner p{
+    color: rgb(209, 187, 146);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+#banner header{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    transform: translate(-90%, -50%);
+}
+#banner{
+    float: right;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;   
+}
+#banner img{
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.cuadro {
+    width: 200px;
+    height: 350px;
+    background-color: #D6A965;
+    float: left;
+    border-radius: 10px;
+    margin: 5px;
+}
+.cuadro a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    display: block;
+    float: left;
+    list-style-type: none;
+}
+.cuadro a img {
+    padding: 5px;
+    float: left;
+    border: 5px solid white;
+    list-style-type: none;
+}
+#contenido ul{
+    list-style: none;
+}
+#fomulario {
+    border-left-width: 500px;
+    float: right;
+}
+div {
+    background-color:#eddeb5; 
+    margin-top: 385px;
+    height: 750px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    background-color: #261408;
+    border-radius: 10px;
+    color: #ffffff;
+}
+footer section {
+    padding: 5px 15px 5px 15px;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+footer a {
+   color: #fff;
+}
